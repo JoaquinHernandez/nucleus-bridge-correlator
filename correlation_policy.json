@@ -1,0 +1,28 @@
+{
+  "sla_remediation_days": {
+    "CRITICAL": 2,
+    "HIGH": 7,
+    "MEDIUM": 30,
+    "LOW": 90
+  },
+  "cve_database": {
+    "CVE-2023-46604": {
+      "title": "Apache ActiveMQ Remote Code Execution",
+      "cvss": 9.8,
+      "mitre_id": "T1190 (Exploit Public-Facing Application)",
+      "remediation": "Upgrade Apache ActiveMQ to version 5.15.16, 5.16.7, 5.17.6, 5.18.3 or later."
+    },
+    "CVE-2024-21626": {
+      "title": "runc Container Breakout / Privilege Escalation",
+      "cvss": 8.6,
+      "mitre_id": "T1611 (Escape to Host)",
+      "remediation": "Update runc package to version 1.1.12 or newer on all container hosts."
+    },
+    "CVE-2023-38606": {
+      "title": "OpenSSH Terrapin Prefix Truncation Attack",
+      "cvss": 5.9,
+      "mitre_id": "T1557 (Adversary-in-the-Middle)",
+      "remediation": "Disable vulnerable ChaCha20-Poly1305 and CBC ciphers in sshd_config."
+    }
+  }
+}
