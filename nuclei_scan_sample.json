@@ -1,0 +1,26 @@
+[
+  {
+    "template_id": "apache-activemq-rce",
+    "cve_id": "CVE-2023-46604",
+    "host": "https://api-gateway.corp.internal:8161",
+    "severity": "CRITICAL",
+    "matched_at": "/admin/browse.jsp",
+    "timestamp": "2026-08-17T12:00:00Z"
+  },
+  {
+    "template_id": "runc-container-escape",
+    "cve_id": "CVE-2024-21626",
+    "host": "k8s-worker-node-03:22",
+    "severity": "HIGH",
+    "matched_at": "/sys/fs/cgroup",
+    "timestamp": "2026-08-17T12:05:00Z"
+  },
+  {
+    "template_id": "openssh-terrapin-vulnerability",
+    "cve_id": "CVE-2023-38606",
+    "host": "192.168.1.50:22",
+    "severity": "MEDIUM",
+    "matched_at": "SSH-2.0-OpenSSH_8.9p1",
+    "timestamp": "2026-08-17T12:10:00Z"
+  }
+]
